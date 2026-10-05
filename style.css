@@ -398,3 +398,57 @@ footer a:hover {
         align-items: stretch;
     }
 }
+
+/* Light mode */
+
+body.light-mode {
+    background-color: #f4f7fb;
+    color: #f1f1f1;
+}
+
+/* Navbar */
+body.light-mode .navbar {
+    background-color: #ffffff;
+    border-color: #b8c7d9;
+    color: #000000;
+}
+
+body.light-mode .navbar a {
+    color: #000000;
+}
+
+/* Cards */
+body.light-mode .card {
+    background-color: #ffffff;
+    border-color: #c7d3e0;
+}
+
+/* Headings */
+body.light-mode h1,
+body.light-mode h2,
+body.light-mode h3,
+body.light-mode h4,
+body.light-mode h5,
+body.light-mode h6 {
+    color: #ffffff;
+}
+
+/* Paragraphs and lists */
+body.light-mode p,
+body.light-mode li {
+    color: #f1f1f1;
+}
+
+/* Theme button */
+#themeButton {
+    padding: 8px 14px;
+    border: 1px solid #527da8;
+    border-radius: 8px;
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+}
+
+#themeButton:hover {
+    transform: scale(1.05);
+}
